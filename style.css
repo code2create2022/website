@@ -69,6 +69,7 @@ body {
 }
 
 .gitbutton {
+  visibility: hidden;
   background-color: rgb(73, 72, 72);
   text-align: center;
   border: solid;
@@ -79,7 +80,8 @@ body {
 }
 
 .center {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
   padding: 10px;
 }

@@ -9,7 +9,7 @@ inputValue.addEventListener('blur', function(e)    {
         dataValidation.style.color = "red";
     }
     else    {
-        dataValidation.innerHTML = "Correct! ✔️";
+        dataValidation.innerHTML = "Correct! ✔️ <br> look down <br> ⬇️";
         dataValidation.style.color = "greenyellow";
     }
     }
